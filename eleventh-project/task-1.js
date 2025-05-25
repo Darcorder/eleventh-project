@@ -18,6 +18,6 @@ function getDateFormat(date, separator = '.') {
 };
 
 
-const date = new Date('2023-03-05'); // 5 марта 2023
+const date = new Date('2023-03-05');
 console.log(getDateFormat(date)); // '05.03.2023'
 console.log(getDateFormat(date, '-')); // '05-03-2023'
